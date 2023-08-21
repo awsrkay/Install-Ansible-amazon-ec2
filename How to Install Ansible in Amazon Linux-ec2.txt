@@ -1,0 +1,9 @@
+How to Install Ansible in Amazon Linux Machine
+-----------------------------------------------
+
+install python in all master and client ec2 instances
+install anisble in master ec2 instance
+generate the public key in ansible master instance
+copy id_ra.pub key and paste in all clients instances authrized_keys file
+enter all client IPS in master /etc/anisble/hosts file
+now you can run your playbooks
